@@ -19,3 +19,6 @@ from sklearn import metrics
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+
+from google.colab import drive
+drive.mount('/content/drive')
